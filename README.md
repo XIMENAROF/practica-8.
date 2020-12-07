@@ -1,2 +1,2 @@
-# practica-8.
-practica 8 ejercicios de la tarea 10
+practica#9 
+Estructuras de repeticion
