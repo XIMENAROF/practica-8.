@@ -1,0 +1,30 @@
+/*Determinar cuánto ahorrará una persona en un año, si al final de cada mes deposita variables cantidades de dinero;
+ además, se requiere saber cuánto lleva ahorrado cada mes. */
+#include<stdio.h>
+int main(){ //funcion principal
+ //Variables
+ float ahorro,sumames,ano;
+ int x,i,depo;
+ 
+ //INICIO
+    x=1;
+    i=0;
+    sumames=0;
+    
+    while(x<=12){    //ciclo while para repetir los 12 meses del año
+        printf("Cuantos depositos hizo al mes");
+        scanf("%d",&depo);
+            for(i=0;i<=depo;i++){
+			    printf("Ingrese el ahorro del mes");
+                scanf("%f",&ahorro);
+                sumames=sumames+ahorro;
+                i++;
+            }
+			  
+	x++;
+    }
+    ano=ano+sumames;
+    printf("El ahorro total del años es de: $ %f",ano);
+    
+return 0;	
+ }
